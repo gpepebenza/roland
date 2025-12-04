@@ -11,4 +11,6 @@ This repository contains a static single-page site for GripNex. Open `index.html
    ```
 2. Open the site at: http://localhost:8000/
 
+The Contact page is available at `/contact/` (or `contact.html`) if you want to jump directly there.
+
 The navigation includes a **Home** link that returns to the top of the page.

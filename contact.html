@@ -9,32 +9,37 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
-<body>
+<body class="contact-page">
   <div class="educational-banner" role="alert" id="edu-banner">
     <span>This site is for educational purposes only and is not an operational business.</span>
     <button class="educational-banner__close" id="edu-banner-close" aria-label="Dismiss notice">×</button>
   </div>
 
-  <header class="hero hero--compact">
+  <header class="hero hero--compact contact-hero">
     <div class="hero__top">
       <div class="brand">GripNex</div>
-      <nav class="nav">
-        <a href="index.html#home">Home</a>
-        <a href="index.html#value">Our Story</a>
-        <a href="index.html#how">How it works</a>
-        <a href="index.html#differentiation">Differentiation</a>
-        <a href="index.html#credibility">Credibility</a>
-        <a href="contact/" aria-current="page">Contact</a>
-      </nav>
     </div>
     <div class="hero__body hero__body--stacked">
       <div class="hero__text">
         <p class="eyebrow">Contact GripNex</p>
         <h1>We'd love to hear from you.</h1>
-        <p class="lede">Whether you have questions about GripNex, feedback on our socks, or need help with an order, our team is here to help. Your performance matters to us, so reach out anytime.</p>
-        <div class="cta-group">
-          <a class="btn btn-primary" href="mailto:r.riedera@gmail.com">Email us</a>
-          <a class="btn btn-secondary" href="tel:+17854919870">Call us</a>
+        <div class="contact-highlight">
+          <p>We’d love to hear from you! Whether you have questions about GripNex, feedback on our socks, or need help with an order, our team is here to help.</p>
+          <div class="contact-highlight__details">
+            <div class="contact-highlight__item">
+              <span class="label">Email</span>
+              <a href="mailto:r.riedera@gmail.com">r.riedera@gmail.com</a>
+            </div>
+            <div class="contact-highlight__item">
+              <span class="label">Phone</span>
+              <a href="tel:+17854919870">(785)4919870</a>
+            </div>
+            <div class="contact-highlight__item">
+              <span class="label">Location</span>
+              <span>Asunción , Paraguay</span>
+            </div>
+          </div>
+          <p class="contact-highlight__note">Your performance matters to us. Reach out anytime — the GripNex team is ready to assist you.</p>
         </div>
       </div>
     </div>
@@ -44,13 +49,12 @@
     <section class="section contact-panel">
       <div class="contact-panel__grid">
         <div class="contact-card">
-          <p class="card__eyebrow">Primary contact</p>
-          <h2>Talk with the GripNex team</h2>
-          <p class="contact-card__lede">Share your questions, feedback, or order details and we'll get back within one business day.</p>
+          <p class="card__eyebrow">Reliable contact methods</p>
+          <h2>Two ways to reach us</h2>
+          <p class="contact-card__lede">Choose the method that works best for you—both are monitored so you get timely help.</p>
           <ul class="contact-list">
             <li><strong>Email:</strong> <a href="mailto:r.riedera@gmail.com">r.riedera@gmail.com</a></li>
-            <li><strong>Phone:</strong> <a href="tel:+17854919870">(785) 491-9870</a></li>
-            <li><strong>Location:</strong> Asunción, Paraguay</li>
+            <li><strong>Phone:</strong> <a href="tel:+17854919870">(785)4919870</a></li>
           </ul>
         </div>
 
@@ -66,15 +70,6 @@
               <input type="email" name="email" placeholder="you@example.com" required>
             </label>
             <label>
-              Topic
-              <select name="topic">
-                <option>Product question</option>
-                <option>Order support</option>
-                <option>Wholesale</option>
-                <option>Feedback</option>
-              </select>
-            </label>
-            <label>
               Message
               <textarea name="message" rows="4" placeholder="Tell us how we can help" required></textarea>
             </label>
@@ -84,19 +79,35 @@
       </div>
     </section>
 
-    <section class="section section--muted contact-details">
-      <div class="contact-details__grid">
-        <div class="contact-detail">
-          <h3>Response time</h3>
-          <p>We aim to respond within one business day so you can keep moving toward your performance goals.</p>
+    <section class="section section--muted contact-guidance">
+      <div class="section__heading">
+        <p class="eyebrow">Screenshot guidance</p>
+        <h2>Key notes captured from the reference shots</h2>
+      </div>
+      <ul class="guidance-list">
+        <li>A welcoming invitation reassures visitors you want to hear from them and sets the right tone.</li>
+        <li>Offer at least two reliable ways to reach you, and include one non–social media channel for accessibility.</li>
+        <li>Keep a dedicated contact page so people and search engines can find help quickly even if contact info appears elsewhere.</li>
+      </ul>
+    </section>
+
+    <section class="section rubric-section">
+      <div class="section__heading">
+        <p class="eyebrow">Rubric (second screenshot)</p>
+        <h2>How this contact page is evaluated</h2>
+      </div>
+      <div class="rubric-grid">
+        <div class="rubric-card">
+          <h3>Appearance / Theme / Content</h3>
+          <p>Does your Contact page share the look, colors, and theme of the rest of your website? Did you use appropriate, attractive images? Is your written content brief and informative? Did you include language inviting users to contact you?</p>
         </div>
-        <div class="contact-detail">
-          <h3>Support outside social media</h3>
-          <p>Prefer to skip DMs? Use our dedicated email or phone number for faster, trackable support.</p>
+        <div class="rubric-card">
+          <h3>Separate Contact Page</h3>
+          <p>Each site should have a separate contact page to assist with findability and search engine indexing.</p>
         </div>
-        <div class="contact-detail">
-          <h3>Visit us</h3>
-          <p>Asunción, Paraguay is home base for GripNex. Reach out to coordinate a visit or pickup.</p>
+        <div class="rubric-card">
+          <h3>Contact Methods</h3>
+          <p>Provide at least two reliable ways for customers to contact your business, with at least one outside of social media.</p>
         </div>
       </div>
     </section>

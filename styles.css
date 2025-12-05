@@ -438,3 +438,89 @@ body.contact-page main {
     font-size: 14px;
   }
 }
+
+/* About page additions */
+body.about-page main {
+  background: linear-gradient(180deg, rgba(15, 23, 42, 0.82), rgba(10, 14, 23, 0.96));
+}
+
+.about-hero .hero__body {
+  align-items: center;
+}
+
+.hero__visual--portrait {
+  max-width: 380px;
+  justify-self: end;
+}
+
+.hero__visual--portrait img {
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 18px 48px -28px rgba(0, 0, 0, 0.6);
+}
+
+.about-story .about-card,
+.about-founder .founder-photo {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 16px;
+  padding: 18px;
+  box-shadow: 0 12px 32px -22px rgba(0, 0, 0, 0.55);
+}
+
+.about-card h3 {
+  margin-top: 0;
+}
+
+.about-list {
+  padding-left: 18px;
+  color: var(--subtext);
+  display: grid;
+  gap: 8px;
+}
+
+.pillars-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.pillar-card {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 16px;
+  padding: 18px;
+  color: var(--subtext);
+  box-shadow: 0 14px 36px -24px rgba(0, 0, 0, 0.55);
+}
+
+.pillar-card h3 {
+  margin-top: 0;
+  color: var(--text);
+}
+
+.pillar-card--values ul {
+  margin: 10px 0 0;
+}
+
+.about-founder .two-col {
+  align-items: center;
+  gap: 28px;
+}
+
+.founder-photo img {
+  width: 100%;
+  display: block;
+  border-radius: 14px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 16px 40px -26px rgba(0, 0, 0, 0.6);
+}
+
+.two-col--balanced {
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+.two-col--reversed {
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}

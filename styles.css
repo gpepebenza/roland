@@ -446,6 +446,11 @@ body.about-page main {
 
 .about-hero .hero__body {
   align-items: center;
+  grid-template-columns: 1fr;
+}
+
+.about-hero .hero__text {
+  max-width: 760px;
 }
 
 .hero__visual--portrait {
@@ -520,6 +525,11 @@ body.about-page main {
 .two-col--balanced {
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
 }
+
+.two-col--reversed {
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
 
 .two-col--reversed {
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));

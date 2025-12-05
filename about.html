@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About GripNex | Performance Grip Socks</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="about-page">
+  <div class="educational-banner" role="alert" id="edu-banner">
+    <span>This site is for educational purposes only and is not an operational business.</span>
+    <button class="educational-banner__close" id="edu-banner-close" aria-label="Dismiss notice">×</button>
+  </div>
+
+  <header class="hero hero--compact about-hero" id="about">
+    <div class="hero__top">
+      <div class="brand">GripNex</div>
+    </div>
+    <div class="hero__body hero__body--stacked">
+      <div class="hero__text">
+        <p class="eyebrow">About GripNex</p>
+        <h1>GripNex exists to keep athletes stable and confident.</h1>
+        <p class="lede">Learn how our story, mission, and vision shape the performance grip socks that help athletes move with control.</p>
+      </div>
+      <div class="hero__visual hero__visual--portrait" aria-hidden="true">
+        <img src="founder.jpg" alt="Portrait of Roland Rieder Amarilla, founder of GripNex">
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="section about-story">
+      <div class="two-col two-col--balanced">
+        <div>
+          <p class="eyebrow">Our Story</p>
+          <h2>Born from a simple, frustrating problem.</h2>
+          <p>GripNex was created to solve a simple but common problem: athletes losing stability because their feet slip inside their shoes. After noticing how this affected performance and caused blisters or small injuries, we decided to design a sock that improves grip, comfort, and confidence in any sport. GripNex started as a small idea and became a commitment to support athletes with better, smarter gear.</p>
+        </div>
+        <div class="about-card">
+          <h3>Why GripNex?</h3>
+          <p>Our grip technology provides better traction, comfort, and security inside the shoe—helping athletes train and compete with confidence.</p>
+          <ul class="about-list">
+            <li>Designed to lock in your foot during explosive moves.</li>
+            <li>Built with breathable fibers to keep you cool and blister-free.</li>
+            <li>Tested with athletes to stay durable through intense sessions.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--muted about-pillars">
+      <div class="section__heading">
+        <p class="eyebrow">Mission, Vision, Values</p>
+        <h2>The principles that guide everything we make</h2>
+      </div>
+      <div class="pillars-grid">
+        <div class="pillar-card">
+          <h3>Our Mission</h3>
+          <p>To provide high-performance grip socks that increase stability, reduce slipping, and help athletes move with more control in any activity.</p>
+        </div>
+        <div class="pillar-card">
+          <h3>Our Vision</h3>
+          <p>To become a trusted performance brand that helps athletes of all levels train safer, feel more secure, and reach their goals.</p>
+        </div>
+        <div class="pillar-card pillar-card--values">
+          <h3>Our Values</h3>
+          <ul class="about-list">
+            <li><strong>Innovation</strong> – We focus on smart design and continuous improvement.</li>
+            <li><strong>Performance</strong> – Everything we create supports better movement.</li>
+            <li><strong>Comfort</strong> – Gear that feels good, fits well, and protects.</li>
+            <li><strong>Reliability</strong> – Products athletes can depend on.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section about-founder">
+      <div class="two-col two-col--balanced two-col--reversed">
+        <div class="founder-photo">
+          <img src="founder.jpg" alt="Roland Rieder Amarilla, founder of GripNex" loading="lazy">
+        </div>
+        <div>
+          <p class="eyebrow">Meet the Founder</p>
+          <h2>Roland Rieder Amarilla</h2>
+          <p>My name is Roland Rieder Amarilla, and I started GripNex because I saw the need for socks that reduce slipping and improve stability across different sports. Today, GripNex continues with the goal of offering athletes simple but effective gear that makes every movement safer and stronger.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2025 GripNex. Built for athletes.</p>
+  </footer>
+
+  <script>
+    const eduBanner = document.getElementById('edu-banner');
+    const eduBannerClose = document.getElementById('edu-banner-close');
+
+    if (eduBanner && eduBannerClose) {
+      eduBannerClose.addEventListener('click', () => {
+        eduBanner.remove();
+      });
+    }
+  </script>
+</body>
+</html>
